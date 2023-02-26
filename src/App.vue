@@ -7,15 +7,6 @@
   </div>
 </template>
 
-<script setup lang="ts">
-interface IKun {
-  name: string
-}
-
-const ikun: IKun = {
-  name: 'kobe'
-}
-console.log(ikun)
-</script>
+<script setup lang="ts"></script>
 
 <style scoped></style>

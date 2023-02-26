@@ -5,6 +5,8 @@ import App from './App.vue'
 import router from './router'
 import pinia from './store'
 
+// 按需引入 npm install -D unplugin-vue-components unplugin-auto-import
+
 const app = createApp(App)
 app.use(router)
 app.use(pinia)
